@@ -1,16 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
+import Root from './components/Root';
+import configureStore from './store';
 
-const style = {
-  textAlign: 'center'
-};
+const store = configureStore();
 
-const App = () => (
-  <div style={style}>
-    <h2>React Boilerplate</h2>
-    <h4>Here's a surfing dog!</h4>
-    <img src="/dist/images/surfingdog.jpg" alt="Surfing Dog" />
-  </div>
-);
-
-render(<App />, document.getElementById('app'));
+render(<Root store={store} />, document.getElementById('app'));
