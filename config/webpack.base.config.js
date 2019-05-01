@@ -1,3 +1,4 @@
+/* eslint-disable */
 const webpack = require('webpack');
 const path = require('path');
 const merge = require("webpack-merge");
@@ -8,7 +9,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const APP_DIR = path.resolve(__dirname, '../src');
 
-module.exports = env => {
+module.exports = (env) => {
   const { PLATFORM, VERSION } = env;
   return merge([
     {
@@ -23,7 +24,7 @@ module.exports = env => {
             }
           },
           {
-            test: /\.scss$/,
+            test: /\.(scss|sass)$/,
             use: [
               PLATFORM === 'production' ? MiniCssExtractPlugin.loader : 'style-loader',
               'css-loader',

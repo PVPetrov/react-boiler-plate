@@ -1,11 +1,9 @@
 import React from 'react';
 
-const style = {
-  textAlign: 'center'
-};
+import './style.sass';
 
 const App = () => (
-  <div style={style}>
+  <div>
     <h2>React Boilerplate</h2>
     <h4>Here&#39;s a surfing dog!</h4>
     <img src="/dist/images/surfingdog.jpg" alt="Surfing Dog" />
