@@ -1,6 +1,6 @@
 # React Boilerplate Project
 
-### Boilerplate project with `react`, `redux` and 'react-router-dom`
+### Boilerplate project with `react`, `redux` and `react-router-dom`
 
 The project uses `react`, `redux` for state management, `redux-thunk` for async actions, `axios` for requests, `webpack` for project bundling, `babel` for transpiling jsx and es6, `eslint` for linting and `prettier` for code formatting
 
