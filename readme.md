@@ -2,7 +2,7 @@
 
 ### Boilerplate project with `react`, `redux` and 'react-router-dom`
 
-The project uses `react`, `redux` for state management, `redux-thunk` for async actions, `axios` for requests, `webpack` for project bundling, `babel` for transpiling jsx and es6, eslint for linting and prettier for code formatting
+The project uses `react`, `redux` for state management, `redux-thunk` for async actions, `axios` for requests, `webpack` for project bundling, `babel` for transpiling jsx and es6, `eslint` for linting and `prettier` for code formatting
 
 ### Scripts
 - _npm start_ - start dev server / if you have static files like img and such, run _npm run build_ first
